@@ -1,12 +1,9 @@
 .header {
   // display: none !important;
 
- 
   background-image: url(/images/bcgrnd.png);
   background-size: cover;
   background-position: center;
-
-
 
   &__content {
     height: 100vh;
@@ -27,9 +24,8 @@
     text-decoration-skip-ink: none;
     color: #fff;
   }
-  
+
   &__bottom {
     padding-bottom: 40px;
-
   }
 }
