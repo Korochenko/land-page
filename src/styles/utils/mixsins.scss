@@ -10,6 +10,12 @@
   }
 }
 
+@mixin animation-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
 @mixin content-padding-inline {
   padding-inline: 20px;
 
@@ -26,6 +32,7 @@
 
 .container {
   @include content-padding-inline;
+  padding-bottom: 120px;
 }
 
 @mixin hover($property, $toValue) {

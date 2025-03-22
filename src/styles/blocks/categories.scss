@@ -54,6 +54,46 @@
   font-size: 24px;
   line-height: 140%;
   color: #1b2129;
+  cursor: default;
   }
-}
+
+  &__button {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 5px;
+    
+    font-size: 16px;
+    line-height: 169%;
+    text-align: center;
+    color: #fff;
+    background-color: #F98921;
+    text-decoration: none;
+
+    @include on-desktop {
+      width: 324px;
+    }
+
+    &:hover {
+      border:  $main-text-color;
+      background-color: $main-text-color;
+      color: #fff;
+
+      transition: $effectDuration ease;
+    }
+  }
+
+  &__image {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    padding-bottom: 120px;
+    
+    @include on-desktop {
+      object-fit: cover;
+      object-position: center;
+      height: 460px;
+    }
+  }
+  }
 

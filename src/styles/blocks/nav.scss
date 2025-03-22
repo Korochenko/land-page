@@ -4,6 +4,10 @@
     text-decoration: none;
     font-size: 22px;
     line-height: 22px;
+
+    &:hover { 
+      color: #1f5d9a;
+    }
   }
 
   &__list {

@@ -1,5 +1,10 @@
 .product {
   display: grid;
+
+    transition:
+    transform 0.3s ease,
+    z-index 0.3s ease;
+  
   &__photo {
     width: 100%;
   }
@@ -25,4 +30,9 @@
     line-height: 140%;
     color: #1b2129;
   }
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
 }
